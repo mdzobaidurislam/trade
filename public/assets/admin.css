@@ -1,0 +1,51 @@
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    width: 250px;
+    padding-top: 3.5rem;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.sidebar .nav-link.active {
+    font-weight: bold;
+    color: #fff;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+}
+
+/* Right navigation styles */
+.rightnav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    width: 250px;
+    padding-top: 3.5rem;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.rightnav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.rightnav .nav-link.active {
+    font-weight: bold;
+    color: #fff;
+}
+
+.rightnav .nav-link:hover {
+    color: #fff;
+}

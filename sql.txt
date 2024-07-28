@@ -1,0 +1,4 @@
+ALTER TABLE `owners` ADD `holding_no` TEXT NULL DEFAULT NULL AFTER `en_ward_no`, ADD `en_holding_no` TEXT NULL DEFAULT NULL AFTER `holding_no`;
+ALTER TABLE `owners` ADD `mobile_email` TEXT NULL DEFAULT NULL AFTER `en_holding_no`, ADD `en_mobile_email` TEXT NULL DEFAULT NULL AFTER `mobile_email`;
+
+ALTER TABLE `owners` ADD `permanent_holding_no` TEXT NULL DEFAULT NULL AFTER `en_mobile_email`, ADD `en_permanent_holding_no` TEXT NULL DEFAULT NULL AFTER `permanent_holding_no`;
