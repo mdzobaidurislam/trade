@@ -22,6 +22,7 @@ class AuthController
         if ($user && password_verify($hashpassword, $user['password'])) {
             session_start();
             $_SESSION['user_id'] = $user['id'];
+            $_SESSION['role'] = $user['role'];
             header('Location: home');
         } else {
             echo 'Invalid credentials';
@@ -117,7 +118,7 @@ class AuthController
 
     public function delete_user()
     {
-        $id = $_GET['id']; // Assuming you pass the user ID through a GET parameter
+        $id = $_POST['id']; // Assuming you pass the user ID through a GET parameter
 
         // Delete user from database
         $pdo = require_once __DIR__ . '/../../config/database.php';

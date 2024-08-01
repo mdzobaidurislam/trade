@@ -55,7 +55,7 @@
         /* A4 width */
         height: 297mm;
         /* A4 height */
-        background-image: url('assets/img/bangla.jpg');
+        background-image: url('assets/img/bangla.png');
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -67,7 +67,7 @@
         /* A4 width */
         height: 297mm;
         /* A4 height */
-        background-image: url('assets/img/english.jpg');
+        background-image: url('assets/img/english.png');
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -156,7 +156,7 @@
 
     .nid_number {
         position: absolute;
-        top: <?php echo $lang ? '620px': '597px'?>;
+        top: <?php echo $lang ? '610px': '602px'?>;
         left: <?php echo $lang ? '260px': '288px'?>;
         font-size: 14px;
     }
@@ -188,70 +188,70 @@
 
     .ward_no {
         position: absolute;
-        top: <?php echo $lang ? '237px': '240px'?>;
-        left: <?php echo $lang ? '144px': '150px'?>;
+        top: <?php echo $lang ? '246px': '254px'?>;
+        left: <?php echo $lang ? '138px': '152px'?>;
         font-size: 14px;
     }
 
     .issue_date {
-        padding-top: <?php echo $lang ? '258px': '263px'?>;
-        padding-left: <?php echo $lang ? '170px': '150px'?>;
+        padding-top: <?php echo $lang ? '267px': '276px'?>;
+        padding-left: <?php echo $lang ? '168px': '151px'?>;
         font-size: 14px;
     }
 
     .trade_license_number {
         position: absolute;
-        top: <?php echo $lang ? '301px': '303px'?>;
-        left: <?php echo $lang ? '443px': '420px'?>;
+        top: <?php echo $lang ? '301px': '314px'?>;
+        left: 415px;
         font-size: 14px;
     }
 
     .trade_license_type {
         position: absolute;
-        top: <?php echo $lang ? '279px': '280px'?>;
-        left: <?php echo $lang ? '210px': '172px'?>;
+        top: <?php echo $lang ? '285px': '292px'?>;
+        left: <?php echo $lang ? '207px': '172px'?>;
         font-size: 14px;
     }
 
     .owner_name {
         position: absolute;
-        top: <?php echo $lang ? '392px': '392px'?>;
+        top: <?php echo $lang ? '387px': '400px'?>;
         left: <?php echo $lang ? '263px': '289px'?>;
         font-size: 14px;
     }
 
     .father_name {
         position: absolute;
-        top: <?php echo $lang ? '416px': '412px'?>;
+        top: <?php echo $lang ? '410px': '420px'?>;
         left: <?php echo $lang ? '262px': '289px'?>;
         font-size: 14px;
     }
 
     .mother_name {
         position: absolute;
-        top: <?php echo $lang ? '438px': '434px'?>;
+        top: <?php echo $lang ? '430px': '440px'?>;
         left: <?php echo $lang ? '262px': '289px'?>;
         font-size: 14px;
     }
 
     .holding_no {
         position: absolute;
-        top: <?php echo $lang ? '498px': '486px'?>;
-        left: <?php echo $lang ? '356px': '375px'?>;
+        top: 488px;
+        left: 369px;
         font-size: 13px;
     }
 
     .vilage {
         position: absolute;
-        top: <?php echo $lang ? '520px': '508px'?>;
-        left: <?php echo $lang ? '356px': '369px'?>;
+        top: 508px;
+        left: 369px;
         font-size: 13px;
     }
 
     .post_office {
         position: absolute;
-        top: <?php echo $lang ? '542px': '528px'?>;
-        left: <?php echo $lang ? '356px': '369px'?>;
+        top: 528px;
+        left: 369px;
         font-size: 13px;
     }
 
@@ -259,57 +259,57 @@
 
     .thana {
         position: absolute;
-        top: <?php echo $lang ? '564px': '548px'?>;
-        left: <?php echo $lang ? '356px': '369px'?>;
+        top: 548px;
+        left: 369px;
         font-size: 13px;
     }
 
     .district {
         position: absolute;
-        top: <?php echo $lang ? '586px': '568px'?>;
-        left: <?php echo $lang ? '356px': '369px'?>;
+        top: 568px;
         font-size: 13px;
+        left: 369px;
     }
 
     .permanent_holding_no {
         position: absolute;
-        top: <?php echo $lang ? '498px': '486px'?>;
-        left: <?php echo $lang ? '600px': '600px'?>;
+        top: 488px;
+        left: 600px;
         font-size: 13px;
     }
 
     .permanent_vilage {
         position: absolute;
-        top: <?php echo $lang ? '520px': '508px'?>;
-        left: <?php echo $lang ? '600px': '600px'?>;
+        top: 508px;
+        left: 600px;
         font-size: 13px;
     }
 
     .permanent_post_office {
         position: absolute;
-        top: <?php echo $lang ? '542px': '528px'?>;
-        left: <?php echo $lang ? '600px': '600px'?>;
+        top: 528px;
+        left: 600px;
         font-size: 13px;
     }
 
     .permanent_thana {
         position: absolute;
-        top: <?php echo $lang ? '564px': '548px'?>;
-        left: <?php echo $lang ? '600px': '600px'?>;
+        top: 548px;
+        left: 600px;
         font-size: 13px;
     }
 
     .permanent_district {
         position: absolute;
-        top: <?php echo $lang ? '586px': '568px'?>;
-        left: <?php echo $lang ? '600px': '600px'?>;
+        top: 568px;
         font-size: 13px;
+        left: 600px;
     }
 
     .business_name {
         position: absolute;
-        top: <?php echo $lang ? '669px': '635px'?>;
-        left: <?php echo $lang ? '262px': '288px'?>;
+        top: <?php echo $lang ? '654px': '642px'?>;
+        left: <?php echo $lang ? '258px': '288px'?>;
         ;
         font-size: 14px;
     }
@@ -317,29 +317,31 @@
 
     .business_address {
         position: absolute;
-        top: <?php echo $lang ? '693px': '656px'?>;
-        left: <?php echo $lang ? '262px': '288px'?>;
+        top: <?php echo $lang ? '676px': '660px'?>;
+        left: <?php echo $lang ? '258px': '288px'?>;
         font-size: 14px;
     }
 
     .business_type {
         position: absolute;
-        top: <?php echo $lang ? '740px': '701px'?>;
-        left: <?php echo $lang ? '262px': '288px'?>;
+        top: <?php echo $lang ? '722px': '701px'?>;
+        left: <?php echo $lang ? '258px': '288px'?>;
         font-size: 14px;
+        width: 100%;
     }
 
     .mobile_email {
         position: absolute;
-        top: <?php echo $lang ? '717px': '680px'?>;
-        left: <?php echo $lang ? '262px': '288px'?>;
+        top: <?php echo $lang ? '700px': '680px'?>;
+        left: <?php echo $lang ? '258px': '288px'?>;
         font-size: 14px;
+        width: 100%;
     }
 
     .tin_number {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '648px': '616px'?>;
+        top: <?php echo $lang ? '634px': '620px'?>;
         left: <?php echo $lang ? '260px': '290px'?>;
     }
 
@@ -352,14 +354,14 @@
 
     .trade_license_fee_second {
         position: absolute;
-        top: <?php echo $lang ? '798px': '776px'?>;
-        left: <?php echo $lang ? '474px': '500px'?>;
+        top: <?php echo $lang ? '780px': '776px'?>;
+        left: <?php echo $lang ? '460px': '500px'?>;
         font-size: 14px;
     }
 
     .in_word {
         position: absolute;
-        top: <?php echo $lang ? '955px': '930px'?>;
+        top: <?php echo $lang ? '930px': '926px'?>;
         left: <?php echo $lang ? '191px': '404px'?>;
         font-size: 14px;
     }
@@ -367,43 +369,36 @@
     .sign_board_tax {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '821px': '798px'?>;
-        left: <?php echo $lang ? '475px': '500px'?>;
+        top: 799px;
+        left: <?php echo $lang ? '460px': '500px'?>;
     }
 
     .trade_tax {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '842px': '820px'?>;
-        left: <?php echo $lang ? '475px': '500px'?>;
+        top: 821px;
+        left: <?php echo $lang ? '460px': '500px'?>;
     }
 
     .outstanding {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '865px': '842px'?>;
-        left: <?php echo $lang ? '475px': '500px'?>;
+        top: 841px;
+        left: <?php echo $lang ? '460px': '500px'?>;
     }
 
     .surcharge {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '885px': '864px'?>;
-        left: <?php echo $lang ? '475px': '500px'?>;
+        top: 861px;
+        left: <?php echo $lang ? '460px': '500px'?>;
     }
 
     .certificate_fee {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '905px': '886px'?>;
-        left: <?php echo $lang ? '475px': '500px'?>;
-    }
-
-    .total_fee {
-        position: absolute;
-        font-size: 14px;
-        top: <?php echo $lang ? '927px': '910px'?>;
-        left: <?php echo $lang ? '475px': '500px'?>;
+        top: 884px;
+        left: <?php echo $lang ? '460px': '500px'?>;
     }
 
 
@@ -796,32 +791,11 @@
     }
     </style>
 </head>
-<?php
-        $total = 0;
-
-        // Function to get the value based on the language and convert it to a float
-        function getValue($lang, $owner, $field)
-        {
-            return $lang ? floatval($owner["en_$field"]) : floatval($owner[$field]);
-        }
-
-        // Calculate total
-        $total += getValue($lang, $owner, 'trade_license_fee');
-        $total += getValue($lang, $owner, 'sign_board_tax');
-        $total += getValue($lang, $owner, 'trade_tax');
-        $total += getValue($lang, $owner, 'outstanding');
-        $total += getValue($lang, $owner, 'surcharge');
-        $total += getValue($lang, $owner, 'certificate_fee');
-
-        ?>
 
 <body>
     <?php
     if ($lang == "en") {
     ?>
-
-
-
     <div class="trade_preview container_en">
         <?php } else { ?>
         <div class="trade_preview container">
@@ -895,13 +869,13 @@
                 </div>
 
 
-
-                <div class="in_word">
-                    <?php echo $lang ? $owner['en_in_words'] : $owner['in_words']; ?>
-                </div>
                 <div class="trade_license_fee_second">
                     <?php echo $lang ? $owner['en_trade_license_fee'] : $owner['trade_license_fee']; ?>/=
                 </div>
+                <div class="in_word">
+                    <?php echo $lang ? $owner['en_in_words'] : $owner['in_words']; ?>
+                </div>
+
                 <div class="sign_board_tax">
                     <?php echo $lang ? $owner['en_sign_board_tax'] : $owner['sign_board_tax']; ?>
                 </div>
@@ -918,9 +892,6 @@
                 </div>
                 <div class="certificate_fee">
                     <?php echo $lang ? $owner['en_certificate_fee'] : $owner['certificate_fee']; ?>
-                </div>
-                <div class="total_fee">
-                    <?php echo $total; ?>
                 </div>
 
                 <div class="mobile_email">

@@ -540,12 +540,12 @@ class TradeLicenseController
         require_once __DIR__ . '/../../src/Views/trade_preview.php';
     }
 
-    public function create_qr($id)
+    public function create_qr($id, $lang)
     {
         $writer = new PngWriter();
 
         // Create QR code
-        $qrCode = QrCode::create($_ENV['APP_URL'] . "show_print_preview?id=" . $id . "&lang=en")
+        $qrCode = QrCode::create($_ENV['APP_URL'] . "show_print_preview?id=" . $id . "&lang=" . $lang)
             ->setEncoding(new Encoding('UTF-8'))
             ->setErrorCorrectionLevel(ErrorCorrectionLevel::Low)
             ->setSize(300)
@@ -572,7 +572,7 @@ class TradeLicenseController
     public function search_form_lang()
     {
         $lang = isset($_GET['lang']) && $_GET['lang'] === 'en';
-
+        $langQr = isset($_GET['lang']) && $_GET['lang'] === 'en' ? 'en' : 'bn';
         $history = null;
         if (isset($_GET['history'])) {
             if ($_GET['history'] === 'yes_' . $_GET['id_num']) {
@@ -609,7 +609,7 @@ class TradeLicenseController
         // print_r($owner);
         // echo '</pre>';
 
-        $dataUri = $this->create_qr($owner['id']);
+        $dataUri = $this->create_qr($owner['id'], $langQr);
 
 
 
@@ -626,6 +626,7 @@ class TradeLicenseController
     public function showPreview()
     {
         $lang = isset($_GET['lang']) && $_GET['lang'] === 'en';
+        $langQr = isset($_GET['lang']) && $_GET['lang'] === 'en' ? 'en' : 'bn';
         if (!isset($_GET['id'])) {
             echo "ID not provided.";
             return;
@@ -642,7 +643,7 @@ class TradeLicenseController
             echo "Owner not found.";
             return;
         }
-        $dataUri = $this->create_qr($id);
+        $dataUri = $this->create_qr($id, $langQr);
 
         require_once __DIR__ . '/../../src/Views/trade_preview.php';
     }
@@ -650,6 +651,7 @@ class TradeLicenseController
     public function show_print_preview()
     {
         $lang = isset($_GET['lang']) && $_GET['lang'] === 'en';
+        $langQr = isset($_GET['lang']) && $_GET['lang'] === 'en' ? 'en' : 'bn';
         if (!isset($_GET['id'])) {
             echo "ID not provided.";
             return;
@@ -685,7 +687,7 @@ class TradeLicenseController
         $writer = new PngWriter();
 
         // Create QR code
-        $qrCode = QrCode::create($_ENV['APP_URL'] . "show_print_preview?id=" . $id . "&lang=en")
+        $qrCode = QrCode::create($_ENV['APP_URL'] . "show_print_preview?id=" . $id . "&lang=" . $langQr)
             ->setEncoding(new Encoding('UTF-8'))
             ->setErrorCorrectionLevel(ErrorCorrectionLevel::Low)
             ->setSize(300)
@@ -706,7 +708,7 @@ class TradeLicenseController
 
 
         // or create a response object
-        $dataUri = $this->create_qr($id);
+        $dataUri = $this->create_qr($id, $langQr);
 
 
 
@@ -718,6 +720,7 @@ class TradeLicenseController
     {
 
         $lang = isset($_GET['lang']) && $_GET['lang'] === 'en';
+        $langQr = isset($_GET['lang']) && $_GET['lang'] === 'en' ? 'en' : 'bn';
         if (!isset($_GET['license_no'])) {
             echo "License not provided.";
             return;
@@ -733,7 +736,7 @@ class TradeLicenseController
             $lang = "en";
         }
 
-        $dataUri = $this->create_qr($owner['id']);
+        $dataUri = $this->create_qr($owner['id'], $langQr);
 
 
         if (!$owner) {
