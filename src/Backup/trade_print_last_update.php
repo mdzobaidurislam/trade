@@ -35,15 +35,15 @@
             height: 165px;
         }
 
-        .qr_path {
-            left: 63px;
+    .qr_path {
+            left: 70px;
             position: absolute;
-            top: 56px;
+            top: 70px;
         }
 
         .qr_path img {
-            width: 120px;
-            height: 120px;
+            width: 130px;
+            height: 130px;
         }
 
     /*  */
@@ -77,72 +77,184 @@
         background-position: center;
     }
 
+    .form_group {
+        position: absolute;
+    }
+
+    .name {
+        top: 170px;
+        left: 200px;
+        width: 300px;
+    }
+
+    .father_name {
+        top: 210px;
+        left: 200px;
+        width: 300px;
+    }
+
+    .mother_name {
+        top: 250px;
+        left: 200px;
+        width: 300px;
+    }
+
+    .issue_data {
+        padding-top: 258px;
+        padding-left: 135px;
+    }
+
+    .village {
+        top: 360px;
+        left: 200px;
+        width: 200px;
+    }
+
+    .post_office {
+        top: 360px;
+        left: 550px;
+        width: 200px;
+    }
+
+    .thana {
+        top: 400px;
+        left: 200px;
+        width: 200px;
+    }
+
+    .district {
+        top: 400px;
+        left: 550px;
+        width: 200px;
+    }
+
+    .issue_time {
+        top: 540px;
+        left: 550px;
+        width: 200px;
+    }
+
+    .permanent_village {
+        top: 660px;
+        left: 200px;
+        width: 200px;
+    }
+
+    .permanent_post_office {
+        top: 660px;
+        left: 550px;
+        width: 200px;
+    }
+
+    .permanent_thana {
+        top: 700px;
+        left: 200px;
+        width: 200px;
+    }
+
+    .permanent_district {
+        top: 700px;
+        left: 550px;
+        width: 200px;
+    }
+
+    .nid_number {
+        position: absolute;
+        top: <?php echo $lang ? '620px': '597px'?>;
+        left: <?php echo $lang ? '260px': '288px'?>;
+        font-size: 14px;
+    }
+
+
+    .trade_license_type {
+        top: 1040px;
+        left: 200px;
+        width: 200px;
+    }
+
+    .trade_license_fee {
+        top: 1080px;
+        left: 200px;
+        width: 200px;
+    }
+
+    .in_words {
+        top: 1120px;
+        left: 200px;
+        width: 200px;
+    }
+
+    .submit_button {
+        top: 1200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .ward_no {
         position: absolute;
-        top: <?php echo $lang ? '214px': '220px'?>;
+        top: <?php echo $lang ? '237px': '240px'?>;
         left: <?php echo $lang ? '144px': '150px'?>;
         font-size: 14px;
     }
 
     .issue_date {
+        padding-top: <?php echo $lang ? '258px': '263px'?>;
+        padding-left: <?php echo $lang ? '170px': '150px'?>;
+        font-size: 14px;
+    }
+
+    .trade_license_number {
         position: absolute;
-        top: <?php echo $lang ? '234px': '238px'?>;
-        left: <?php echo $lang ? '166px': '150px'?>;
+        top: <?php echo $lang ? '301px': '303px'?>;
+        left: <?php echo $lang ? '443px': '420px'?>;
         font-size: 14px;
     }
 
     .trade_license_type {
         position: absolute;
-        top: <?php echo $lang ? '252px': '252px'?>;
+        top: <?php echo $lang ? '279px': '280px'?>;
         left: <?php echo $lang ? '210px': '172px'?>;
         font-size: 14px;
     }
-    .trade_license_number {
-        position: absolute;
-        top: <?php echo $lang ? '272px': '274px'?>;
-        left: <?php echo $lang ? '443px': '420px'?>;
-        font-size: 14px;
-    }
-
 
     .owner_name {
         position: absolute;
-        top: <?php echo $lang ? '354px': '352px'?>;
+        top: <?php echo $lang ? '392px': '392px'?>;
         left: <?php echo $lang ? '263px': '289px'?>;
         font-size: 14px;
     }
 
     .father_name {
         position: absolute;
-        top: <?php echo $lang ? '376px': '373px'?>;
+        top: <?php echo $lang ? '416px': '412px'?>;
         left: <?php echo $lang ? '262px': '289px'?>;
         font-size: 14px;
     }
 
     .mother_name {
         position: absolute;
-        top: <?php echo $lang ? '396px': '393px'?>;
+        top: <?php echo $lang ? '438px': '434px'?>;
         left: <?php echo $lang ? '262px': '289px'?>;
         font-size: 14px;
     }
 
     .holding_no {
         position: absolute;
-        top: <?php echo $lang ? '452px': '440px'?>;
+        top: <?php echo $lang ? '500px': '486px'?>;
         left: <?php echo $lang ? '356px': '375px'?>;
         font-size: 13px;
     }
 
     .vilage {
         position: absolute;
-        top: <?php echo $lang ? '472px': '458px'?>;
+        top: <?php echo $lang ? '522px': '508px'?>;
         left: <?php echo $lang ? '356px': '369px'?>;
         font-size: 13px;
     }
 
     .post_office {
         position: absolute;
-        top: <?php echo $lang ? '493px': '478px'?>;
+        top: <?php echo $lang ? '545px': '528px'?>;
         left: <?php echo $lang ? '356px': '369px'?>;
         font-size: 13px;
     }
@@ -151,68 +263,56 @@
 
     .thana {
         position: absolute;
-        top: <?php echo $lang ? '513px': '496px'?>;
+        top: <?php echo $lang ? '568px': '548px'?>;
         left: <?php echo $lang ? '356px': '369px'?>;
         font-size: 13px;
     }
 
     .district {
         position: absolute;
-        top: <?php echo $lang ? '534px': '514px'?>;
+        top: <?php echo $lang ? '591px': '568px'?>;
         left: <?php echo $lang ? '356px': '369px'?>;
         font-size: 13px;
     }
 
     .permanent_holding_no {
         position: absolute;
-        top: <?php echo $lang ? '452px': '440px'?>;
+        top: <?php echo $lang ? '500px': '486px'?>;
         left: <?php echo $lang ? '600px': '600px'?>;
         font-size: 13px;
     }
 
     .permanent_vilage {
         position: absolute;
-        top: <?php echo $lang ? '472px': '458px'?>;
+        top: <?php echo $lang ? '522px': '508px'?>;
         left: <?php echo $lang ? '600px': '600px'?>;
         font-size: 13px;
     }
 
     .permanent_post_office {
         position: absolute;
-        top: <?php echo $lang ? '493px': '478px'?>;
+        top: <?php echo $lang ? '545px': '528px'?>;
         left: <?php echo $lang ? '600px': '600px'?>;
         font-size: 13px;
     }
 
     .permanent_thana {
         position: absolute;
-        top: <?php echo $lang ? '513px': '496px'?>;
+        top: <?php echo $lang ? '568px': '548px'?>;
         left: <?php echo $lang ? '600px': '600px'?>;
         font-size: 13px;
     }
 
     .permanent_district {
         position: absolute;
-        top: <?php echo $lang ? '534px': '514px'?>;
+        top: <?php echo $lang ? '591px': '568px'?>;
         left: <?php echo $lang ? '600px': '600px'?>;
         font-size: 13px;
     }
-    .nid_number {
-        position: absolute;
-        font-size: 14px;
-        top: <?php echo $lang ? '562px': '538px'?>;
-        left: <?php echo $lang ? '260px': '290px'?>;
-    }
 
-    .tin_number {
-        position: absolute;
-        font-size: 14px;
-        top: <?php echo $lang ? '586px': '558px'?>;
-        left: <?php echo $lang ? '260px': '290px'?>;
-    }
     .business_name {
         position: absolute;
-        top: <?php echo $lang ? '606px': '575px'?>;
+        top: <?php echo $lang ? '669px': '635px'?>;
         left: <?php echo $lang ? '262px': '288px'?>;
         ;
         font-size: 14px;
@@ -221,19 +321,14 @@
 
     .business_address {
         position: absolute;
-        top: <?php echo $lang ? '628px': '594px'?>;
+        top: <?php echo $lang ? '693px': '656px'?>;
         left: <?php echo $lang ? '262px': '288px'?>;
         font-size: 14px;
     }
-    .mobile_email {
-        position: absolute;
-        top: <?php echo $lang ? '648px': '614px'?>;
-        left: <?php echo $lang ? '262px': '288px'?>;
-        font-size: 14px;
-    }
+
     .business_type {
         position: absolute;
-        top: <?php echo $lang ? '668px': '635px'?>;
+        top: <?php echo $lang ? '740px': '701px'?>;
         left: <?php echo $lang ? '262px': '288px'?>;
         font-size: 14px;
         width: 100%;
@@ -242,63 +337,83 @@
         opacity: 0;
     }
 
+    .mobile_email {
+        position: absolute;
+        top: <?php echo $lang ? '717px': '680px'?>;
+        left: <?php echo $lang ? '262px': '288px'?>;
+        font-size: 14px;
+    }
+
+    .tin_number {
+        position: absolute;
+        font-size: 14px;
+        top: <?php echo $lang ? '646px': '616px'?>;
+        left: <?php echo $lang ? '260px': '290px'?>;
+    }
+
+    .trade_license_fee {
+        position: absolute;
+        top: 725px;
+        left: 288px;
+        font-size: 14px;
+    }
 
     .trade_license_fee_second {
         position: absolute;
-        top: <?php echo $lang ? '724px': '703px'?>;
+        top: <?php echo $lang ? '798px': '776px'?>;
         left: <?php echo $lang ? '474px': '500px'?>;
         font-size: 14px;
     }
 
+    .in_word {
+        position: absolute;
+        top: <?php echo $lang ? '955px': '930px'?>;
+        left: <?php echo $lang ? '191px': '404px'?>;
+        font-size: 14px;
+    }
 
     .sign_board_tax {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '742px': '724px'?>;
+        top: <?php echo $lang ? '821px': '798px'?>;
         left: <?php echo $lang ? '475px': '500px'?>;
     }
 
     .trade_tax {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '763px': '744px'?>;
+        top: <?php echo $lang ? '842px': '820px'?>;
         left: <?php echo $lang ? '475px': '500px'?>;
     }
 
     .outstanding {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '783px': '764px'?>;
+        top: <?php echo $lang ? '865px': '842px'?>;
         left: <?php echo $lang ? '475px': '500px'?>;
     }
 
     .surcharge {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '802px': '783px'?>;
+        top: <?php echo $lang ? '885px': '864px'?>;
         left: <?php echo $lang ? '475px': '500px'?>;
     }
 
     .certificate_fee {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '824px': '803px'?>;
+        top: <?php echo $lang ? '905px': '886px'?>;
         left: <?php echo $lang ? '475px': '500px'?>;
     }
 
     .total_fee {
         position: absolute;
         font-size: 14px;
-        top: <?php echo $lang ? '842px': '823px'?>;
+        top: <?php echo $lang ? '927px': '910px'?>;
         left: <?php echo $lang ? '475px': '500px'?>;
     }
 
-    .in_word {
-        position: absolute;
-        top: <?php echo $lang ? '865px': '842px'?>;
-        left: <?php echo $lang ? '191px': '404px'?>;
-        font-size: 14px;
-    }
 
     @media print {
 
@@ -315,12 +430,12 @@
     
         .image_path {
             top: 98px;
-            right: 75px;
+            right: 85px;
             position: absolute;
         }
 
         .image_path img {
-            width: 178px;
+            width: 180px;
             height: 230px;
         }
 
@@ -341,10 +456,10 @@
 
         .container {
             position: relative;
-            width: 100%;
-            height: 100%;
-            /* width: 787.2px;
-            height: 1019.4px; */
+            /* width: 100%;
+            height: 100%; */
+            width: 787.2px;
+            height: 1019.4px;
             /* A4 width */
             /* A4 height */
             background-image: url('assets/img/bangla.jpg');
@@ -355,10 +470,10 @@
 
         .container_en {
             position: relative;
-            width: 100%;
-            height: 100%;
-            /* width: 787.2px;
-            height: 1019.4px; */
+            /* width: 100%;
+            height: 100%; */
+            width: 787.2px;
+            height: 1019.4px;
             /* width: 210mm;
             height: 297mm; */
             /* A4 width */
@@ -376,14 +491,14 @@
 
         .ward_no {
             position: absolute;
-            margin-top: <?php echo $lang ? '100px': '112px'?>;
+            margin-top: <?php echo $lang ? '80px': '93px'?>;
             margin-left: <?php echo $lang ? '50px': '60px'?>;
             font-size: 14px;
         }
 
         .issue_date {
-            padding-top: <?php echo $lang ? '112px': '122px'?>;
-            padding-left: <?php echo $lang ? '60px': '60px'?>;
+            padding-top: <?php echo $lang ? '345px': '360px'?>;
+            padding-left: <?php echo $lang ? '230px': '210px'?>;
             font-size: 14px;
         }
         .trade_license_type {
